@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4d882487.css",
+    "main.js": "/Portfolio/static/js/main.b5ccd3e6.js",
+    "static/js/787.1f11dfe9.chunk.js": "/Portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/weather-pic.png": "/Portfolio/static/media/weather-pic.6d1047fa9ef655c50586.png",
+    "static/media/Noura.png": "/Portfolio/static/media/Noura.f3138504cc4691202fb4.png",
+    "static/media/Arthur.png": "/Portfolio/static/media/Arthur.fce1383f506b795783a7.png",
+    "static/media/profile2.png": "/Portfolio/static/media/profile2.237632833b5662303add.png",
+    "static/media/Jordi.png": "/Portfolio/static/media/Jordi.2fc5fccd8d18112af2cc.png",
+    "static/media/about-img.png": "/Portfolio/static/media/about-img.21d9210246e7e25f1797.png",
+    "static/media/ChatApp.JPG": "/Portfolio/static/media/ChatApp.2776b49c11704aca1468.JPG",
+    "static/media/verified.png": "/Portfolio/static/media/verified.b97487c0f01c3f4098b8.png",
+    "static/media/Fatima.png": "/Portfolio/static/media/Fatima.fa153aff31d65dbec34b.png",
+    "static/media/Task.png": "/Portfolio/static/media/Task.f83b43b85f0c92253fb5.png",
+    "static/media/Hassin.png": "/Portfolio/static/media/Hassin.81761347bb8d391929c9.png",
+    "static/media/flag.svg": "/Portfolio/static/media/flag.e95ad0351b085c0900e5e588a8583231.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.4d882487.css.map": "/Portfolio/static/css/main.4d882487.css.map",
+    "main.b5ccd3e6.js.map": "/Portfolio/static/js/main.b5ccd3e6.js.map",
+    "787.1f11dfe9.chunk.js.map": "/Portfolio/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d882487.css",
+    "static/js/main.b5ccd3e6.js"
+  ]
+}

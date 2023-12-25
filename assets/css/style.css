@@ -1,0 +1,257 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face{
+  font-family: "wolf";
+  src: url("../font/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "wolf-bold";
+  src: url("../font/Montserrat-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+h2{
+  font-family: "wolf-bold" !important;
+  font-size: 30px !important ;
+  text-align: center;
+}
+.f-s-b{
+  font-family: "wolf-bold";
+  font-size: 15px !important;
+}
+.f-s-1{
+  font-size: 12px !important;
+}
+.text_align_center{
+  text-align: center;
+}
+
+.btn{
+  border: none !important;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px !important;
+  align-items: baseline !important;
+  padding-top: 0.75rem !important;
+}
+
+.color-1{
+  color: whitesmoke !important;
+  background-color: rgb(103, 58, 183) !important;
+  box-shadow: 0px 5px 50px rgb(103, 58, 183,0.3);
+}
+.color-2{
+  color: whitesmoke !important;
+  background-color: rgb(0, 73, 16)  !important;
+  box-shadow: 0px 5px 50px rgb(0, 73, 16,0.3);
+}
+.color-3{
+  color: whitesmoke !important;
+  background-color: rgb(16, 0, 245) !important;
+  box-shadow: 0px 5px 50px rgb(16, 0, 245,0.3);
+}
+.color-4{
+  color: whitesmoke !important;
+  background-color: rgb(233, 30, 99) !important;
+  box-shadow: 0px 5px 50px rgb(233, 30, 99,0.3);
+}
+.color-5{
+  color: whitesmoke !important;
+  background-color: rgb(202, 4, 4) !important;
+  box-shadow: 0px 5px 50px rgb(202, 4, 4,0.3);
+}
+.color-6{
+  color: whitesmoke !important;
+  background-color: rgb(175, 165, 73) !important;
+  box-shadow: 0px 5px 50px rgb(175, 165, 73,0.3);
+}
+.color-1c{
+color: rgb(103, 58, 183) !important;
+}
+.color-2c{
+color: rgb(0, 73, 16) !important;
+} 
+.color-3c{
+color: rgb(16, 0, 245) !important;
+ }
+.color-4c{
+color: rgb(233, 30, 99) !important; 
+}
+.color-5c{
+color: rgb(202, 4, 4) !important;
+ }
+.color-6c{
+color: rgb(175, 165, 73)  !important;
+}
+
+.bg-1a{
+  background-color:  rgb(255, 255, 255) !important;
+}
+.bg-1b{
+  background-color:  whitesmoke !important;
+  /* background-color: whitesmoke; */
+}
+.bg-2a{
+  color: whitesmoke;
+  background-color: rgb(70, 68, 68) !important;
+}
+.bg-2b{
+  color: whitesmoke;
+  background-color: black !important;
+}
+
+*{
+  font-family: "wolf";
+
+}
+p{  font-size: 14px;}
+/* ------------------------------nanbar section */
+nav{
+  position: fixed;
+  color: whitesmoke;;
+padding-top: 25px;
+padding-bottom: 10px;
+z-index: 100;
+  }
+.nav__menu li a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav__menu li{
+  text-decoration: none;
+}
+.nav__menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;  
+}
+.name{
+  font-weight: 700;
+  color: white !important;
+}
+.name span{
+  background-color: whitesmoke;
+  border-radius: 0.3rem;
+  padding: 0rem 0.4rem;
+  color: var(--color-primary);
+  margin-left: 0.2rem;
+  font-weight: 600;
+}
+/*------------------------------- madal  */
+h3{
+  font-size: 1.6rem;
+  text-align: center !important;
+  font-weight: bold;
+}
+
+h3 p{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.primary-color{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-left: 7px;
+margin-right: 7px;
+}
+.back-color{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 25px; 
+  margin-right: 25px; 
+}
+  .m{
+    align-items: center;
+    /* background-color: rgb(212, 212, 212,0.01); */
+    backdrop-filter: blur(4px) 
+  }
+  .App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  .my-modal .modal-content {
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+    /* width: 80%; */
+  }
+
+  .about{
+    height: 100vh;
+  }
+
+
+  /* =================================================================================== */
+
+/* #floating__nav {
+    display: none;
+  } */
+
+.bg-1bf{
+  background-color: rgba(61, 60, 60, 0.4) !important;
+}
+.bg-2bf{
+  background-color: rgb(0, 0, 0,0.4) !important;
+}
+.floating__nav{
+  z-index: 100;
+  backdrop-filter: blur(4px);
+  position: fixed;
+  bottom: 0px; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating__nav li{
+text-decoration: none !important;
+list-style-type: none;
+display:flex;
+}
+
+.floating__nav a{
+  width: 3.5rem;
+  aspect-ratio: 1/1;
+  color: white;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  }
+  .floating__nav a:hover{
+    color: black !important;
+    background-color: white;
+  }
+  .is-active{
+    background-color: white !important;
+scale:(2rem);
+color: black !important;
+border: 1px solid black;
+  }
+
+
+
+
+
+
+
+
+
+
