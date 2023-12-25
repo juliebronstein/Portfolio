@@ -1,0 +1,140 @@
+.contact-inner {
+    display: flex;
+  }
+  
+  .contact-left {
+    width: 50%;
+  }
+  
+  .contact-left h2 {
+    margin-bottom: 3rem;
+  }
+  
+  .contact-left p {
+    max-width: 25rem;
+  }
+  
+  .contact-right h2 {
+    margin-bottom: 3rem;
+  }
+  
+  .contact-right {
+    width: 50%;
+  }
+  
+  .contact__container {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+  }
+  
+  .contact__container a {
+    width: 3.5rem;
+    aspect-ratio: 1/1;
+    color: white;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    border: 2px solid transparent;
+    border-radius: 20px;
+  }
+  
+  .contact__container a:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 20px;
+    transform: translateY(-0.5rem);
+    transition: transform 1s
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+  
+  .contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .contact-inputs input[type="submit"] {
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-3);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+  }
+  .text-left{
+text-align: left;
+  }
+  input,
+  textarea {
+    max-width: 50rem;
+    color: #1c1c1c;
+    font-size: 1rem;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+  }
+  input:focus {
+    border: 1px solid var(--color-primary);
+  }
+  textarea:focus {
+    border: 1px solid var(--color-primary);
+  }
+  
+  label {
+    color: var(--color-dark);
+    font-size: 1rem;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  form > p {
+    color: darkred;
+    opacity: 0.7;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: -1rem 0px 1rem;
+    font-weight: 400;
+  }
+  
+  /* Media Query (Phone)  */
+  @media screen and (max-width: 600px) {
+    .contact__container {
+      gap: 1.5rem;
+    }
+    .contact__container a {
+      width: 3.5rem;
+      font-size: 1.6rem;
+    }
+    .contact-inner {
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+    .contact-left {
+      width: 100%;
+    }
+    .contact-right {
+      width: 100%;
+    }
+  }
+  
