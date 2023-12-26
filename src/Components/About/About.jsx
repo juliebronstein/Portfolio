@@ -49,7 +49,7 @@ const About = () => {
             </p>
             <a
             className={` btn btn-primary ${colors.primaryColor}`}
-              href="./JuleB.pdf"
+              href="./SA.pdf"
               download
             >
               Download CV <HiDownload />

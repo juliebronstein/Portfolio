@@ -27,7 +27,7 @@ const Tdata = [
       quote:
         "For almost one years, I worked with samaneh in the same team. She was a professional React developer with an excellent manner and brilliant behavior. She was committed to work and a person who finished every task to the proper results. It was my pleasure to work with her. I really recommend working with her.",
       name: "Mahnaz Sharifi",
-      profession: "Front Developer",
+      profession: "Front-end Developer",
     },
 
     {
@@ -36,7 +36,7 @@ const Tdata = [
       quote:
         "I highly recommend samaneh for her strong coding skills as well as her creative thinking and innovative designs, as well as her independence in how she applies elements to projects. Also, he has great perseverance in learning.",
       name: "Beyraghdar",
-      profession: "Mechatronic Engineer",
+      profession: "Front-end Engineer",
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ const Tdata = [
       quote:
         "We worked together for about a year straight. Samaneh's ability to understand and analyze and very high precision in execution had a great impact on the process of completing projects. I would definitely recommend working with samaneh.",
       name: "Dehghani",
-      profession: "DB Administrator",
+      profession: "IT manager",
     },
   ];
   
